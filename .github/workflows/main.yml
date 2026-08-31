@@ -39,11 +39,3 @@ jobs:
         with:
           name: VoidGlassLauncher-APK
           path: '**/build/outputs/apk/debug/*.apk'
-                - name: Make Gradlew Executable
-        working-directory: ./android
-        run: chmod +x gradlew
-
-      - name: Build APK
-        working-directory: ./android
-        run: ./gradlew assembleDebug
-        
