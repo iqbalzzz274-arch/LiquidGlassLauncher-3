@@ -36,5 +36,3 @@ jobs:
         with:
           name: VoidGlassLauncher-APK
           path: App/build/outputs/apk/debug/*.apk
-          name: VoidGlassLauncher-APK
-          path: App/build/outputs/apk/debug/*.apk
